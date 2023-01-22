@@ -1,14 +1,5 @@
 command /booster2x:
-    permission: op
-    trigger:
-        give player paper named "&b&l2x booster &7[Right click]"
 
 command /booster20x:
-    permission: op
-    trigger:
-        give player paper named "&b&l20x booster &7[Right click]"
 
 command /booster5x:
-    permission: op
-    trigger:
-        give player paper named "&b&l5x booster &7[Right click]"
