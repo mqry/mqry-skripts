@@ -1,12 +1,3 @@
 command /hoe:
-    trigger:
-        give player hoe named "&7[Tier 1] Pickaxe" with lore " " and "&7Can be upgraded"
 
 on break of wheat[age=7]:
-    if name of tool doesn't contain "&7[Tier 1] Pickaxe":
-        send "&4GET A HOE" to player
-    else:
-        set event-block to air
-        give wheat to player
-        wait 2 seconds
-        set event-block to wheat[age=7]
