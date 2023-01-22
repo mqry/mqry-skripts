@@ -1,8 +1,2 @@
 command /stafflist:
-    aliases: /sl,/staffs
-    trigger:
-        message "- &4&lStaff &f&lList &r-"
-        message "&x&c&a&6&8&d&3&lO&x&c&e&4&e&d&e&lw&x&d&3&3&4&e&9&ln&x&d&7&1&a&f&4&le&x&d&b&0&0&f&f&lr &r» FeeqzV"
-        message "&x&9&8&1&4&9&3&lM&x&a&1&1&b&a&5&la&x&a&9&2&1&b&7&ln&x&b&2&2&8&c&9&la&x&b&b&2&f&d&b&lg&x&c&3&3&5&e&d&le&x&c&c&3&c&f&f&lr &r» mqryyyjqnee"
-        message "&x&1&3&b&7&c&e&lD&x&0&a&d&b&d&7&le&x&0&0&f&f&e&0&lv &r» oCost"
         
