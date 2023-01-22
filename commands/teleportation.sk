@@ -1,4 +1,2 @@
 # teleports to nether
 command /nether:
-    trigger: 
-        teleport player to location(-27,65,-97, "el_nether")
