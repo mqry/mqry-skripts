@@ -1,0 +1,18 @@
+command /drop:
+	trigger:
+		if {drop::%uuid of player%} is true:
+			send "&aYou have already enabled dropping!"
+			stop
+		else:
+			set {drop::%uuid of player%} to true
+			send "&aYou have enabled dropping for 30 seconds!"
+			wait 30 seconds
+			delete {drop::%uuid of player%}
+			send "&cDropping has been automatically disabled!"
+
+on drop:
+	if {drop::%uuid of player%} is not true:
+		cancel event
+		send "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &7Do &c/dropon&7 to enabled dropping items!" to player
+	else:
+		send "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &7You dropped an item!" to player

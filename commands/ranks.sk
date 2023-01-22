@@ -1,0 +1,64 @@
+# vip
+command /vip:
+    permission: vip.rank
+    trigger:
+        give 16 of nether quartz named "&dRank Tokens" to player
+        give player paper named "&b&l2x booster &7[Right click]"
+        send "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr  &r» You have received your daily rank reward" to player
+    cooldown: 24 hours
+    cooldown message: &x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr  &r» you need to wait 24 hours
+    
+# hero
+command /hero:
+    permission: hero.rank
+    trigger:
+        give 32 of nether quartz named "&dRank Tokens" to player
+        give player paper named "&b&l2x booster &7[Right click]"
+        send "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr  &r» You have received your daily rank reward" to player
+    cooldown: 24 hours
+    cooldown message: &x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr  &r» you need to wait 24 hours
+# ultra
+command /ultra:
+    permission: ultra.rank
+    trigger:
+        give 64 of nether quartz named "&dRank Tokens" to player
+        give player paper named "&b&l2x booster &7[Right click]"
+        send "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr  &r» You have received your daily rank reward" to player
+    cooldown: 24 hours
+    cooldown message: &x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr  &r» you need to wait 24 hours
+# demonking
+command /demonking:
+    permission: demonking.rank
+    trigger:
+        give 128 of nether quartz named "&dRank Tokens" to player
+        give player paper named "&b&l2x booster &7[Right click]"
+        send "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr  &r» You have received your daily rank reward" to player
+    cooldown: 24 hours
+    cooldown message: &x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr  &r» you need to wait 24 hours
+# warlord
+command /warlord:
+    permission: warlord.rank
+    trigger:
+        give 138 of quartz named "&dRank Tokens" to player
+        give player paper named "&b&l2x booster &7[Right click]"
+        send "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr  &r» You have received your daily rank reward" to player
+    cooldown: 24 hours
+    cooldown message: &x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr  &r» you need to wait 24 hours
+# overlord
+command /overlord:
+    permission: overlord.rank
+    trigger:
+        give 138 of quartz named "&dRank Tokens" to player
+        give player paper named "&b&l5x booster &7[Right click]"
+        send "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr  &r» You have received your daily rank reward" to player
+    cooldown: 24 hours
+    cooldown message: &x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr  &r» you need to wait 24 hours
+# custom
+command /custom:
+    permission: custom.rank
+    trigger:
+        give 148 of quartz named "&dRank Tokens" to player
+        give player paper named "&b&l5x booster &7[Right click]"
+        send "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr  &r» You have received your daily rank reward" to player
+    cooldown: 24 hours
+    cooldown message: &x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr  &r» you need to wait 24 hours

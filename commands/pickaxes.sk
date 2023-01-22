@@ -1,0 +1,23 @@
+command /pickaxetwo:
+    aliases: "ptwo"
+    permission: op
+    trigger:
+        give player unbreakable wooden pickaxe of efficiency 2 named "&2Pickaxe &7[2]"
+
+command /pickaxethree:
+    aliases: "pthree"
+    permission: op
+    trigger:
+        give player unbreakable wooden pickaxe efficiency 3 named "&2Pickaxe &7[3]"
+
+command /pickaxefourth:
+    aliases: "pfourth"
+    permission: op
+    trigger:
+        give player unbreakable wooden pickaxe efficiency 4 named "&2Pickaxe &7[4]"
+
+command /pickaxefifth:
+    aliases: "pfifth"
+    permission: op
+    trigger:
+        give player unbreakable wooden pickaxe of efficiency 5 named "&2Pickaxe &7[5]"

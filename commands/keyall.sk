@@ -1,0 +1,28 @@
+command /keysunset:
+    permission: key.sunset
+    cooldown: 24 hour
+    cooldown bypass: op
+    trigger: 
+        execute console command "crate key give * sunset 1"
+
+command /keyeletric:
+    permission: key.eletric
+    cooldown: 24 hour
+    cooldown bypass: op
+    trigger: 
+        execute console command "crate key give * eletric 1"
+
+command /keytoxic:
+    permission: key.toxic
+    cooldown: 24 hour
+    cooldown bypass: op
+    trigger: 
+        execute console command "crate key give * toxic 1"
+
+command /keyviperl:
+    permission: key.viper
+    cooldown: 24 hour
+    cooldown bypass: op
+    trigger: 
+        execute console command "crate key give * viper 1"
+
