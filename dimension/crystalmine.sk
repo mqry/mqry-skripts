@@ -1,72 +1,19 @@
 command /pickaxe:
-	trigger:
-		give player 1 of unbreakable wooden pickaxe of efficiency 1 named "&2Pickaxe &7[1]" with lore "" and "&cPink" with all flags hidden
-		send "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &7You have received the pickaxe" to player
+	
 command /pickaxetwo:
-    aliases: "ptwo"
-    permission: op
-    trigger:
-        give player 1 of unbreakable stone pickaxe of efficiency 2 named "&2Pickaxe &7[2]" with lore "" and "&cPink" and "&dMagenta" with all flags hidden
-command /pickaxethree:
-    aliases: "pthree"
-    permission: op
-    trigger:
-        give player 1 of unbreakable gold pickaxe of efficiency 3 named "&2Pickaxe &7[3]" with lore "" and "&cPink" and "&dMagenta" and "&5Purple" with all flags hidden
-command /pickaxefourth:
-    aliases: "pfourth"
-    permission: op
-    trigger:
-        give player 1 of unbreakable diamond pickaxe of efficiency 4 named "&2Pickaxe &7[4]" with lore "" and "&cPink" and "&dMagenta" and "&5Purple" and "&4Red" with all flags hidden
-command /pickaxefifth:
-    aliases: "pfifth"
-    permission: op
-    trigger:
-        give player 1 of unbreakable netherite pickaxe of efficiency 5 named "&2Pickaxe &7[5]" with lore "" and "&cPink" and "&dMagenta" and "&5Purple" and "&4Red" and "&2Green" with all flags hidden
 
+command /pickaxethree:
+      
+command /pickaxefourth:
+
+command /pickaxefifth:
+    
 on break of pink stained glass:
-    if name of tool doesn't contain "&2Pickaxe &7[1]" or "&2Pickaxe &7[2]" or "&2Pickaxe &7[3]" or "&2Pickaxe &7[4]" or "&2Pickaxe &7[5]":
-        send "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r»  &4[!] REQUIRED PICKAXE NEEDED"
-        cancel event
-    else:
-        set event-block to bedrock
-        give pink dye named "&cPink" to player
-        wait 5 seconds
-        set event-block to pink stained glass block
 
 on break of magenta stained glass:
-    if name of tool doesn't contain "&2Pickaxe &7[2]" or "&2Pickaxe &7[3]" or "&2Pickaxe &7[4]" or "&2Pickaxe &7[5]":
-        send "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r»  &4[!] REQUIRED PICKAXE NEEDED"
-        cancel event
-    else:
-        set event-block to bedrock
-        give magenta dye named "&dMagenta" to player
-        wait 5 seconds
-        set event-block to magenta stained glass block
 
 on break of purple stained glass:
-    if name of tool doesn't contain "&2Pickaxe &7[3]" or "&2Pickaxe &7[4]" or "&2Pickaxe &7[5]":
-        send "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r»  &4[!] REQUIRED PICKAXE NEEDED"
-        cancel event
-    else:
-        set event-block to bedrock
-        give purple dye named "&5Purple" to player
-        wait 5 seconds
-        set event-block to purple stained glass block
+
 on break of red stained glass:
-    if name of tool doesn't contain "&2Pickaxe &7[4]" or "&2Pickaxe &7[5]":
-        send "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r»  &4[!] REQUIRED PICKAXE NEEDED"
-        cancel event
-    else:
-        set event-block to bedrock
-        give red dye named "&4Red" to player
-        wait 5 seconds
-        set event-block to red stained glass block
+
 on break of green stained glass:
-    if name of tool doesn't contain "&2Pickaxe &7[5]":
-        send "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r»  &4[!] REQUIRED PICKAXE NEEDED"
-        cancel event
-    else:
-        set event-block to bedrock
-        give green dye named "&2Green" to player
-        wait 5 seconds
-        set event-block to green stained glass block
