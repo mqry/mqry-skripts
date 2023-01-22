@@ -1,0 +1,139 @@
+command /ranks:
+    cooldown: 30 seconds
+    cooldown bypass: op
+    trigger:
+        create a gui with virtual chest inventory with 3 rows named "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &4Ranks":
+            format gui slot 10 to lime dye named "&2Vip"
+            format gui slot 11 to red dye named "&4Hero"
+            format gui slot 12 to yellow dye named "&eUltra"
+            format gui slot 13 to pink dye named "&cDemonKing"
+            format gui slot 14 to light blue dye named "&bWarlord"
+            format gui slot 15 to orange dye named "&6Overlord"
+            format gui slot 16 to nametag named "&f&LCUSTOM"
+        open last gui to player
+
+on inventory click:
+    if event-item is lime dye:
+        player command "v1"
+on inventory click:
+    if event-item is red dye:
+        player command "h1"
+on inventory click:
+    if event-item is yellow dye:
+        player command "u1"
+on inventory click:
+    if event-item is pink dye:
+        player command "d1"
+on inventory click:
+    if event-item is light blue dye:
+        player command "w1"
+on inventory click:
+    if event-item is orange dye:
+        player command "o1"
+on inventory click:
+    if event-item is nametag:
+        player command "c1"
+
+command /v1:
+    trigger:
+        set {_gui} to a new chest inventory with 1 row named "&4Ranks &r» &aVip"
+        set slot 2 of {_gui} to paper named "&2VIP &fPrefix"
+        set slot 3 of {_gui} to paper named "&c16 Rank Tokens &7(/vip)"
+        set slot 4 of {_gui} to paper named "&82x GenBoost &7(/vip)"
+        set slot 5 of {_gui} to paper named "&5/enderchest"
+        set slot 6 of {_gui} to paper named "&8/pv 1"
+        open {_gui} to player
+on inventory click:
+    if inventory name of player's current inventory is "&4Ranks &r» &aVip":
+        cancel event
+command /h1:
+    trigger:
+        set {_gui} to a new chest inventory with 1 row named "&4Ranks &r» &4Hero"
+        set slot 2 of {_gui} to paper named "&4Hero &fPrefix"
+        set slot 3 of {_gui} to paper named "&c32 Rank Tokens &7(/hero)"
+        set slot 4 of {_gui} to paper named "&82x GenBoost &7(/hero)"
+        set slot 5 of {_gui} to paper named "&5/enderchest"
+        set slot 6 of {_gui} to paper named "&8/pv 1-3"
+        open {_gui} to player
+on inventory click:
+    if inventory name of player's current inventory is "&4Ranks &r» &4Hero":
+        cancel event
+command /u1:
+    trigger:
+        set {_gui} to a new chest inventory with 1 row named "&4Ranks &r» &eUltra"
+        set slot 2 of {_gui} to paper named "&eUltra &fPrefix"
+        set slot 3 of {_gui} to paper named "&c64 Rank Tokens &7(/ultra)"
+        set slot 4 of {_gui} to paper named "&82x GenBoost &7(/ultra)"
+        set slot 5 of {_gui} to paper named "&5/enderchest"
+        set slot 6 of {_gui} to paper named "&8/pv 1-5"
+        set slot 7 of {_gui} to paper named "&2/feed"
+        open {_gui} to player
+on inventory click:
+    if inventory name of player's current inventory is "&4Ranks &r» &eUltra":
+        cancel event
+command /d1:
+    trigger:
+        set {_gui} to a new chest inventory with 1 row named "&4Ranks &r» &cDemonKing"
+        set slot 1 of {_gui} to paper named "&cDemonKing &fPrefix"
+        set slot 2 of {_gui} to paper named "&c128 Rank Tokens &7(/demonking)" with lore "&82x GenBoost &7(/demonking)"
+        set slot 3 of {_gui} to paper named "&5/enderchest"
+        set slot 4 of {_gui} to paper named "&8/pv 1-8"
+        set slot 5 of {_gui} to paper named "&2/feed"
+        set slot 6 of {_gui} to paper named "&e/keysunset (keyall)"
+        set slot 7 of {_gui} to paper named "&7/nick"
+        open {_gui} to player
+on inventory click:
+    if inventory name of player's current inventory is "&4Ranks &r» &cDemonKing":
+        cancel event
+command /w1:
+    trigger:
+        set {_gui} to a new chest inventory with 1 row named "&4Ranks &r» &bWarlord"
+        set slot 2 of {_gui} to paper named "&bWarlord &fPrefix"
+        set slot 3 of {_gui} to paper named "&c138 Rank Tokens &7(/warlord)"
+        set slot 4 of {_gui} to paper named "&82x GenBoost &7(/warlord)"
+        set slot 5 of {_gui} to paper named "&5/enderchest"
+        set slot 6 of {_gui} to paper named "&8/pv 1-10"
+        set slot 12 of {_gui} to paper named "&2/feed"
+        set slot 13 of {_gui} to paper named "&e/keysunset (keyall)"
+        set slot 14 of {_gui} to paper named "&7/nick"
+        set slot 15 of {_gui} to paper named "&a/heal"
+        open {_gui} to player
+on inventory click:
+    if inventory name of player's current inventory is "&4Ranks &r» &6Overlord":
+        cancel event
+command /o1:
+    trigger:
+        set {_gui} to a new chest inventory with 2 row named "&4Ranks &r» &6Overlord"
+        set slot 2 of {_gui} to paper named "&6Overlord &fPrefix"
+        set slot 3 of {_gui} to paper named "&c138 Rank Tokens &7(/overlord)"
+        set slot 4 of {_gui} to paper named "&82x GenBoost &7(/overlord)"
+        set slot 5 of {_gui} to paper named "&5/enderchest"
+        set slot 6 of {_gui} to paper named "&8/pv 1-15"
+        set slot 11 of {_gui} to paper named "&2/feed"
+        set slot 12 of {_gui} to paper named "&e/keysunset (keyall)"
+        set slot 13 of {_gui} to paper named "&7/nick"
+        set slot 14 of {_gui} to paper named "&f/eglow (white)"
+        set slot 15 of {_gui} to paper named "&a/heal"
+        open {_gui} to player
+on inventory click:
+    if inventory name of player's current inventory is "&4Ranks &r» &6Overlord":
+        cancel event
+command /c1:
+    trigger:
+        set {_gui} to a new chest inventory with 2 row named "&4Ranks &r» &cCustom"
+        set slot 2 of {_gui} to paper named "&cCUSTOMIZE Prefix"
+        set slot 3 of {_gui} to paper named "&c148 Rank Tokens &7(/custom)"
+        set slot 4 of {_gui} to paper named "&85x GenBoost &7(/custom)"
+        set slot 5 of {_gui} to paper named "&5/enderchest"
+        set slot 6 of {_gui} to paper named "&8/pv 1-25"
+        set slot 10 of {_gui} to paper named "&2/feed"
+        set slot 11 of {_gui} to paper named "&e/keysunset (keyall)"
+        set slot 12 of {_gui} to paper named "&2/keytoxic (keyall)"
+        set slot 13 of {_gui} to paper named "&7/nick"
+        set slot 14 of {_gui} to paper named "&f/eglow (white)"
+        set slot 15 of {_gui} to paper named "&a/heal"
+        set slot 16 of {_gui} to paper named "&7/fly"
+        open {_gui} to player
+on inventory click:
+    if inventory name of player's current inventory is "&4Ranks &r» &cCustom":
+        cancel event

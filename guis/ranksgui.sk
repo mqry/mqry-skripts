@@ -1,0 +1,188 @@
+command /ranks:
+    trigger:
+        set {_gui} to a new chest inventory with 3 row named "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r"
+        set slot 10 of {_gui} to lime dye named "&aVip"
+        set slot 11 of {_gui} to red dye named "&4Hero"
+        open {_gui} to player
+
+       
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 0:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 1:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 2:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 3:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 4:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 5:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 6:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 7:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 8:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 9:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 10:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 11:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 12:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 13:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 14:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 15:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 16:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 17:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 18:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 19:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 20:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 21:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 22:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 23:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 24:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 25:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 26:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 27:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 28:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 29:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 30:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 31:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 32:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 33:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 34:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &0&kii&r&4&lRanks&r&0&kii&r":
+        if index of event-slot = 35:
+            cancel event

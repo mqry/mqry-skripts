@@ -1,0 +1,220 @@
+command /rules:
+    trigger:
+        set {_gui} to a new chest inventory with 4 rows named "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules"
+        set slot 0 of {_gui} to blue stained glass pane named " "
+        set slot 1 of {_gui} to white stained glass pane named " "
+        set slot 2 of {_gui} to blue stained glass pane named " "
+        set slot 3 of {_gui} to white stained glass pane named " "
+        set slot 4 of {_gui} to blue stained glass pane named " "
+        set slot 5 of {_gui} to white stained glass pane named " "
+        set slot 6 of {_gui} to blue stained glass pane named " "
+        set slot 7 of {_gui} to white stained glass pane named " "
+        set slot 8 of {_gui} to blue stained glass pane named " "
+        set slot 9 of {_gui} to white stained glass pane named " "
+        set slot 10 of {_gui} to paper named "&fNo Spamming"
+        set slot 11 of {_gui} to paper named "&fNo Advertising"
+        set slot 12 of {_gui} to paper named "&fNo Proanity Towards Others"
+        set slot 13 of {_gui} to paper named "&fNo Trolling/Flaming"
+        set slot 14 of {_gui} to paper named "&fNo Banned Items"
+        set slot 15 of {_gui} to paper named "&fNo Asking For Permissions"
+        set slot 16 of {_gui} to paper named "&fRespect Others"
+        set slot 17 of {_gui} to white stained glass pane named " "
+        set slot 18 of {_gui} to blue stained glass pane named " "
+        set slot 19 of {_gui} to white stained glass pane named " "
+        set slot 20 of {_gui} to blue stained glass pane named " "
+        set slot 21 of {_gui} to paper named "&fUse Common Sense"
+        set slot 22 of {_gui} to paper named "&fDo not spread personal info"
+        set slot 23 of {_gui} to paper named "&f Threatening is not tolerated"
+        set slot 24 of {_gui} to blue stained glass pane named " "
+        set slot 25 of {_gui} to white stained glass pane named " "
+        set slot 26 of {_gui} to blue stained glass pane named " "
+        set slot 27 of {_gui} to white stained glass pane named " "
+        set slot 28 of {_gui} to blue stained glass pane named " "
+        set slot 29 of {_gui} to white stained glass pane named " "
+        set slot 30 of {_gui} to blue stained glass pane named " "
+        set slot 31 of {_gui} to white stained glass pane named " "
+        set slot 32 of {_gui} to blue stained glass pane named " "
+        set slot 33 of {_gui} to white stained glass pane named " "
+        set slot 34 of {_gui} to blue stained glass pane named " "
+        set slot 35 of {_gui} to white stained glass pane named " "
+        open {_gui} to player
+
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 0:
+            cancel event
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 1:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 2:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 3:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 4:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 5:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 6:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 7:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 8:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 9:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 10:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 11:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 12:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 13:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 14:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 15:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 16:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 17:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 18:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 19:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 20:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 21:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 22:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 23:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 24:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 25:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 26:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 27:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 28:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 29:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 30:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 31:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 32:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 33:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 34:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &aRules":
+        if index of event-slot = 35:
+            cancel event

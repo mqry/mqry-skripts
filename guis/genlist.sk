@@ -1,0 +1,71 @@
+command /genlist:
+    aliases: /gl,/gens
+    trigger:
+        set {_gui} to a new chest inventory with 5 row named "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &bGenlist"
+        set slot 11 of {_gui} to sunflower named "&eFlower"
+        set slot 12 of {_gui} to oak log named "&7Wood"
+        set slot 13 of {_gui} to cobblestone named "&8Cobblestone"
+        set slot 14 of {_gui} to block of raw gold named "&6Mix"
+        set slot 15 of {_gui} to amethyst shard named "&5Amethyst"
+        set slot 20 of {_gui} to red mushroom named "&cMushroom"
+        set slot 21 of {_gui} to honeycomb named "&eB&6e&ee"
+        set slot 22 of {_gui} to phantom membrane named "&9Phantom"
+        set slot 23 of {_gui} to gunpowder named "&aCreeper"
+        set slot 24 of {_gui} to rabbit's foot named "&fRabbit"
+        set slot 31 of {_gui} to twisting vines named "&9Warden"
+        open {_gui} to player
+
+on inventory click:
+    if name of event-inventory is  "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &bGenlist":
+        if index of event-slot = 11:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &bGenlist":
+        if index of event-slot = 12:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &bGenlist":
+        if index of event-slot = 13:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &bGenlist":
+        if index of event-slot = 14:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &bGenlist":
+        if index of event-slot = 15:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &bGenlist":
+        if index of event-slot = 20:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &bGenlist":
+        if index of event-slot = 21:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &bGenlist":
+        if index of event-slot = 22:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &bGenlist":
+        if index of event-slot = 23:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &bGenlist":
+        if index of event-slot = 24:
+            cancel event
+
+on inventory click:
+    if name of event-inventory is "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &bGenlist":
+        if index of event-slot = 31:
+            cancel event
