@@ -1,0 +1,7 @@
+command /claim:
+    trigger: 
+        message " "
+        message "&x&1&2&9&0&4&4&lS&x&3&4&9&f&5&d&lk&x&5&6&a&d&7&7&ly&x&7&8&b&c&9&0&lV&x&9&9&c&a&a&a&li&x&b&b&d&9&c&3&lp&x&d&d&e&7&d&d&le&x&f&f&f&6&f&6&lr &r» &fHow to claim your &2VIP &frank?"
+        message "&f1) Join &9/discord"
+        message "&f2) Next, type in your ign in vip-claim"
+        message "&f3) Wait 24 hours for staff to set your rank"

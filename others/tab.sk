@@ -1,0 +1,32 @@
+on join:
+	clear player's scoreboard
+	erase player's sidebar
+
+on script load:
+	loop all players:
+		clear loop-player's scoreboard
+		erase loop-player's sidebar
+
+every tick:
+	loop all players:
+		toggle loop-player's scoreboard to true
+		set title of loop-player's scoreboard to "&&x&8&0&0&0&8&0&lF&x&8&6&0&6&8&6&la&x&8&d&0&d&8&d&ln&x&9&3&1&3&9&3&lt&x&9&9&1&a&9&9&la&x&a&0&2&0&a&0&ls&x&a&6&2&6&a&6&ly&x&a&c&2&d&a&c&lD&x&b&2&3&3&b&2&lu&x&b&9&3&a&b&9&ls&x&b&f&4&0&b&f&lt"
+		set line 11 of loop-player's scoreboard to "&b"
+		set line 10 of loop-player's scoreboard to " &5&lYou"
+		set line 9 of loop-player's scoreboard to " &5&l| &7%loop-player's prefix%"
+		set line 8 of loop-player's scoreboard to " &5&l| &7%loop-player's ping%ms"
+		set line 6 of loop-player's scoreboard to "&b"
+		set line 5 of loop-player's scoreboard to "&r&7Informations"
+		set line 3 of loop-player's scoreboard to " &d&l| &r &cDeaths&7: %{deaths.%loop-player%}%"
+		set line 4 of loop-player's scoreboard to " &d&l| &r &2Kills&7: %{kills.%loop-player%}%"
+		set line 2 of loop-player's scoreboard to "&b"
+		set line 1 of loop-player's scoreboard to "&7fantasydust.minehut.gg"
+		
+		
+on death:
+    add 1 to {kills.%attacker%}
+    add 1 to {deaths.%victim%}
+
+variables:
+    {kills.%player%} = 0
+    {deaths.%player%} = 0
