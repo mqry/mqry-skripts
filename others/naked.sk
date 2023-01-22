@@ -1,17 +1,2 @@
 # anti-naked
 on damage of player:
-    if attacker is a player:
-    
-        if victim isn't wearing armor:
-            cancel event
-            send "&b&lDube&f&lMC &r» &c&lHey!&7 You can't kill naked players." to attacker
-
-        else if victim isn't wearing a helmet and leggings and boots:
-            victim is wearing elytra:
-                cancel event
-                send "&b&lDube&f&lMC &r» &c&lHey!&7 You can't kill players while not wearing armor." to attacker 
-
-        if attacker isn't wearing armor:
-            if victim is wearing armor:
-                cancel event
-                send "&b&lDube&f&lMC &r» &c&lHey!&7 You can't kill players while not wearing armor." to attacker
